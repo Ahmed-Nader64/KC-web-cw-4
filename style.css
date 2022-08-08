@@ -4,13 +4,19 @@ h1{
     border: 1px solid #191919;
     border-radius: 10px;
     text-align: center;
-    opacity: 0.5;
-    transition: 0.5s;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-h1:hover{
-    opacity: 1;
+#container {
+    width: 210px;
+    background-color: #191919;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    box-shadow: 1px 1px 10px rgb(127, 127, 127);
 }
 
 .circle{
@@ -20,19 +26,15 @@ h1:hover{
     margin-top: 15px;
     border-radius: 50%;
     box-shadow: 1px 1px 1px black;
+    opacity: 0.5;
+    transition: all 0.5s ease-in;
+}
+
+.circle:hover{
+    opacity: 1;
 }
 
 #red{
-
-    background-color: red;
-}
-
-#yellow{
-    background-color: yellow;
-}
-
-#green{
-    background-color: green;
     background-color: #cc1616;
 }
 
@@ -41,5 +43,9 @@ h1:hover{
 }
 
 #green{
-    background-color: #0079ff;
+    background-color: #48ff00;
+}
+
+hr {
+    width: 50px;
 }
