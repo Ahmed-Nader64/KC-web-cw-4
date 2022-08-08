@@ -17,7 +17,6 @@ h1 {
     opacity: .5;
     transition: all .5s ease-in;
     box-shadow: 5px 3px rgb(200, 199, 199);
-    
 }
 
 .circle:hover{
@@ -27,13 +26,13 @@ h1 {
 }
 
 #red{
- background-color: red;
+    background-color: red;
 }
 
 #yellow{
- background-color: yellow;
+    background-color: yellow;
 }
 
 #green{
- background-color: green;
+    background-color: green;
 }
